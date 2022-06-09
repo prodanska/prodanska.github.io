@@ -1,0 +1,134 @@
+<!-- ustvarimo html dokument-->
+<!DOCTYPE html>
+<!-- začetek htmlja -->
+<html>
+	<!-- začetek glave, ki vsebuje linke do google pisav ki jih uporabljam-->
+	<head>
+		<link rel="stylesheet" type="text/css" href= "stil.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">
+		<!-- naslov zavihka -->
+		<title>Vhodne naprave</title>
+	</head>
+	<!-- konec glave in začetek telesa -->
+	<body>
+		<!-- začetek glave strani z html5 značko-->
+		<header>
+			<!-- tabela z eno vrstico in enim stolpcem, uporabila sem jo saj je bolj pregledno -->
+			<table>
+			<tr>
+				<th><h1> VHODNE NAPRAVE </h1></th>
+			</table>
+			<!-- konec tabele -->
+		</header>
+		<!-- konec glave strani in začetek navigacije (nav) -->
+		<nav>
+		<!-- s tabelo sem ustvarila meni ki ima eno vrstico in tri stolpce, v vsaki je beseda ki je link do podstrani in glavne index strani -->
+			<table>
+			<tr>
+				<th><a href="index.html"><h4>DOMOV</h4></a></th>
+				<th><a href="izhodnenaprave.html"><h4>IZHODNE NAPRAVE</h4></a></th>
+				<th><a href="viri.html"><h4>VIRI IN LICENCE</h4></a></th>
+			</table>
+			<!-- konec tabele -->
+		</nav>
+		<!-- konec navigacije (nav) začetek prvega dela ki ima stil naprave -->
+		<section class="naprave">
+			<!-- kazalo ki ima naslov in sidra ki te vržejo na določeno mesto dol po strani -->
+			<h3>KAZALO VHODNIH NAPRAV:</h3>
+			<a href="#poglavje1"><h5>TIPKOVNICA</h5></a>
+			<a href="#poglavje2"><h5>MIŠKA</h5></a>
+			<a href="#poglavje3"><h5>MIKROFON<h5></a>
+		</section>
+		<!-- konec prvega dela -->
+		<hr>
+		<!-- naredili smo črto za boljšo ločljivost in preglednost, začetek drugega dela-->
+		<section>
+			<!-- naslov ki ima poseben stil naslov in je povezan s sidrom na zgornje kazalo in pa besedilo v dveh delih-->
+			<h3 class="naslov" id="poglavje1"> TIPKOVNICA </h3>
+			<p> Je najbolj razširjena vhodna naprava, pri kateri tipke delujejo kot stikala. Tipkovnica je vhodna naprava, preko katere vnašamo v računalnik podatke, ukaze in besedila. Poleg vnosa podatkov nam omogoča tudi upravljanje z računalnikom. Obstaja veliko različic razporeditve tipk in tudi samega števila tipk, zato obstaja veliko različnih standardov. Poleg tega mora biti tipkovnica prilagojena tudi posameznemu jeziku, zato obstajajo tudi različice iste tipkovnice, prilagojene različnim jezikom. Na primer slovenska tipkovnica ima tipke, dodeljene črkam Š, Đ, Č, Ć, in Ž, vendar nemščina teh črk ne uporablja, zato so pri njih iste tipke dodeljene črkam, ki jih slovenščina nima – Ü, Ö in Ä. </p>
+			<p> Tipke so razporejene v šest skupin:</p>
+			<!-- tabela z enim stolpcem in eno vrstico, ki ima sliko z dodatnik stilom ki jo centrira levo -->
+			<table>
+			<tr>
+				<th><img style="margin-right: 30px; float: left" src="slike/razporeditev.png" width="650" height="400"></th>
+			</table>
+			<!-- konec tabele, besedilo -->
+			<p> Tipi in standardi tipkovnic: </p>
+			<!-- nova tabela, ki ima dva stolpca in eno vrstico, v enem stolpcu so tri slike ena pod drugo ki so centrirane na sredini stolpca, in drugo stolpec ki ima list -->
+			<table>
+			<tr>
+				<th><img src="slike/ergonomska_tipk.jpg" width="175" height="125"><img src="slike/gaming_konzol.png" width="175" height="125"><img src="slike/slika2.png" width="175" height="125"></th>
+				<th><ul>
+					<li>Namizne tipkovnice ali tipkovnice polne velikosti: Običajno razdeljena na tri dele in vsebuje 100 tipk, alfanumerične, numerične in funkcijske tipke, tudi različna diakritična znamenja ter simbole za valute.</li>
+					<li>Tipkovnice velikosti notesnikov: Imajo manjše število tipk. Običajno je le alfanumerični del in tipke za premikanje kazalca, ostalo pa se izpusti, saj lahko tiste tipke nadomestimo z neko kombinacijo tipk.</li>
+					<li>Gibljive tipkovnice: Imajo še vedno vse tipke, ki so na namiznih tipkovnicah. Gibljive tipkovnice se lahko upogiba in zvija. Večina tipkovnic je narejenih iz silicija, tako je  tipkovnica vodoodporna in odporna na prah.</li>
+					<li>Ročne tipkovnice: Oblikovane na tak način, da jih držimo kot krmilnik pri igrah. Običajno imajo ročne tipkovnice vse alfanumerične tipke, ki jih ima navadna tipkovnica, vendar jih lahko dobimo le z pritiskanjem dveh tipk naenkrat. Nekatere ročne tipkovnice imajo tudi vgrajeno miško s sledilno žogico.</li>
+					<li>Ergonomične tipkovnice: So zasnovane tako, da minimizirajo bolečine v mišicah, utrujenost in druge stvari. Običajno so v obliki črke V, vendar obstaja več različnih tipov.</li>
+					<li>Razdeljene tipkovnice: Tipke so v dveh ali več delih, običajno spremenijo kot med sekcijami in razdaljo med njimi. Pri prilagodljivih tipkovnicah lahko uporabnik kot in razdaljo povsem prilagodi svojim potrebam.</li>
+					<li>Posebno oblikovane tipkovnice: Njihov namen je da ni potrebno veliko premikati rok ali zapestja. Tipke so razmaknjene približno na širini ramen, funkcijske tipke pa so razporejene tako da se uporabljajo s palci.</li>
+					<li>Kotne razdeljene tipkovnice: To so razdeljene tipkovnice, ki imajo osrednji del dvignjen, tako da so kazalci višje kot ostali prsti.</li>
+					<li>Programske tipkovnice: Se uporabljajo tam, kjer je malo prostora ali ni zaželeno imeti fizične tipke, ki bi zavzele več prostora. To so največkrat pametni telefoni oz. zasloni ''touchscreen''.</li>
+				</ul>
+				</th>
+				<!-- konec lista -->
+			</table>
+			<!-- konec tabele -->
+			<hr>
+			<!-- črta, za boljšo ločljivost -->
+		</section>
+		<!-- konec drugega dela, začetek tretjega-->	
+		<section>
+			<!-- naslov ki ima poseben stil naslov in pa je povezan s sidrom na kazalo -->
+			<h3 class="naslov" id="poglavje2"> MIŠKA </h3>
+			<!-- začetek tabele ki ima dva stolpca in eno vrstico, v enemu stolpcu sta dve sliki ena pod drugo, v drugem stolpcu pa besedilo -->
+			<table>
+			<tr>
+				<th><img src="slike/ergonomska_miska.jpg" width="175" height="125"><img src="slike/old_mouse.jpg" width="175" height="125"></th>
+				<th><p>Miška je kazalna naprava, kjer s premikanjem miške, premikamo kazalec na zaslonu monitorja. S pritiskanjem na tipke pa določamo operacijo, ki naj se izvrši. Običajno je opremljena z enim do tremi gumbi za vnašanje funkcij. Primarna tipka, ki jo uporabljamo za izbiranje elementov, umeščanje kazalca v dokument in vlečenje elementov. Sekundarna tipka, ki jo uporabimo za hitro opravljanje nalog (desna tipka). Kolesce, ki olajša premikanje in krmiljenje.</p>
+				<p>Zgodovina miške: miško je iznašel Douglas Engelbart leta 1963. Prvi uspeh so miške doživele leta 1984 ko je Apple predstavil računalnike Macintosh. Zaradi pomanjkanja podpore v operacijskem sistemu je nekaj časa trajalo da so začeli uporabljati miške v osebnih računalnikih vrste IBM PC. Bill Gates dolgo ni verjel v miške, zato so pri Windowsu morali vgraditi tudi možnost navigacije s tipkovnico. Miškin kazalec je lahko na zaslonu prikazan z različnimi oblikami ali sličicami. Običajno ima obliko puščice, s katero odpiramo menije, izbiramo ukaze, izbiramo možnosti v pogovornih oknih. Med delom z besedilom pa ima miškin kazalec obliko, ki spominja na veliko črko i. Oblika miškinega kazalca se torej spreminja glede na to kar trenutno delamo.</p>
+				<p>Kako sploh deluje miška danes? Vrtenje kroglice se preko koleščkov spreminja v električne impulze, te impulze poseben program pretvori v premikanje kazalca na zaslonu. </p>
+				</th>
+			</table>
+			<!-- konec tabele, besedilo -->
+			<p>Ločimo: mehanske in optično-mehanske in optične miške. Mehanske in optično-mehanske miške se premikajo s sledilno kroglico, s premikanjem miške po podlagi se krogla vrti, preko kolesca se vrtenje prenaša na senzorje. Optične miške pa nimajo premičnih delov ampak njihova elektronika odčitava položaj krogle prek svetleče diode in fotocelice, optični senzorji beležijo premike po posebni podlagi z gostim vzorcem točk.</p>
+			<!-- tabela ki ima eno vrstico in tri stolpce, v vsaki so slike ki imajo opis slike pod njo z <figcaption> -->
+			<table>
+			<tr>
+				<th><img style="float: center;" src="slike/delovanje.png" width="175" height="125"><figcaption>Mehanska miška</figcaption></th>
+				<th><img style="float: center;" src="slike/miska_kako.jpg" width="175" height="125"><figcaption>Optično-mehanska miška</figcaption></th>
+				<th><img style="float: center;" src="slike/opticna.png" width="175" height="125"><figcaption>Optična miška</figcaption></th>
+			</table>
+			<!-- konec tabele -->
+			<hr>
+			<!-- črta za boljšo ločljivost -->
+		</section>
+		<!-- konec trtjega dela , začetek četrtega -->
+		<section>
+			<!-- naslov ki je povezan s sidrom na kazalo -->
+			<h3 class="naslov" id="poglavje3"> MIKROFON </h3>
+			<!-- tabela ki ima eno vrstico in dva stolpca, v eni je slika ki je centrirana na sredi, v drugi pa besedilo v dveh delih -->
+			<table>
+			<tr>
+				<th><img src="slike/cool_microphone.jpg" width="175" height="125"></th>
+				<th><p>Mikrofon nam omogoča govorno komuniciranje med človekom in računalnikom oz. digitalni zapis govora, v nekaterih primerih tudi za pošiljanje ukazov. S tem smo dobili prenos zvoka na daljavo. Mikrofon opravlja podobno vlogo kot človeško uho. Človeški uho sliši zvok med 20 in 20.000 Hz, mikrofon pa čez 100.000 Hz.</p>
+				<p>Mikrofon je naprava, ki spreminja zvok v električno napetost. Pri pretvorbi zvoka v električno napetost želimo čim manjše linearno in nelinearno popačenje signala. Mikrofon mora biti čim bolj občutljiv da ne prihaja do linearnega popačenja.</p></th>
+			</table>
+			<!-- konec tabele -->
+		</section>
+		<!-- konec četrtega dela, začetek noge strani -->
+		<footer>
+			<!-- tabela ki ima eno vrstico in dva stolpca v enem je licenca spletne strani ki je poravnana na levo, v drugem stolpcu pa datum nastanka spletne strani ki je poravnan levo -->
+			<table>
+			<tr>
+				<th><p style="margin: 30px;"> spletna_stran © 2022 by lepaglavca is licensed under CC BY 4.0 </p></th>
+				<th style="text-align:right">9. 6. 2022<th>
+			</table>
+			<!-- konec tabele -->
+		</footer>
+		<!-- konec noge -->
+	</body>
+	<!-- konec telesa -->
+</html>
+<!-- konec htmlja -->

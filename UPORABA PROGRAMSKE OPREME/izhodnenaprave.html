@@ -1,0 +1,101 @@
+<!-- ustvarimo html dokument -->
+<!DOCTYPE html>
+<!-- začetek htmlja -->
+<html>
+<!-- začetek glave, ki ima linke do google pisav ki jih uporabljamo -->
+	<head>
+		<link rel="stylesheet" type="text/css" href= "stil.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">
+		<!-- naslov zavihka -->
+		<title>Izhodne naprave</title>
+	</head>
+	<!-- konec glave, začetek telesa -->
+	<body>
+		<!-- začetek glave spletne strani -->
+		<header>
+			<!-- tabela ki ima en stolpec in eno vrstico z naslovom, zaradi lepše preglednosti -->
+			<table>
+			<tr>
+				<th><h1> IZHODNE NAPRAVE </h1></th>
+			</table>
+			<!-- konec tabele -->
+		</header>
+		<!-- konec glave, začetek navigacije (nav) -->
+		<nav>
+			<!-- meni v obliki tabele, ki ima eno vrstico in tri stolpce vsak stolpec ima besedo ki je link do podstrani in ena tudi do domače index strani -->
+			<table>
+			<tr>
+				<th><a href="index.html"><h4>DOMOV</h4></a></th>
+				<th><a href="vhodnenaprave.html"><h4>VHODNE NAPRAVE</h4></a></th>
+				<th><a href="viri.html"><h4>VIRI IN LICENCE</h4></a></th>
+			</table>
+			<!-- konec tabele -->
+		</nav>
+		<!-- konec navigacije, začetek prvega dela, ki ima poseben stil naprave-->
+		<section class="naprave">
+			<!-- naslov kazalo in pa naslova ki sta sidra -->
+			<h3>KAZALO IZHODNIH NAPRAV:</h3>
+			<a href="#poglavje1"><h5>ZASLON</h5></a>
+			<a href="#poglavje2"><h5>TISKALNIK</h5></a>
+		</section>
+		<!-- konec prvega dela -->
+		<hr>
+		<!-- črta za boljšo ločljivost in začetek drugega dela -->
+		<section>
+			<!-- naslov ki je sidro, ki je povezano na zgornje kazalo in ima poseben stil naslov, in pa besedilo -->
+			<h3 class="naslov" id="poglavje1"> ZASLON </h3>
+			<p>Zaslon je najpogostejša izhodna naprava, na kateri prikazujemo informacije in rezultat našega vnosa, namenjen je komunikaciji med človekom in računalnikom. Danes pa poznamo tudi zaslone na dotik.Slika, ki jo prikazujemo na zaslonu, je shranjena v video pomnilniku (običajno na grafični kartici). Monitor prejme signale iz računalnika, ki se ločijo po tehnologiji prikaza slike:</p> 
+			<!-- začetek tabele ki ima dva stolpca in eno vrstico, v prvem stolpcu sta dve sliki ena pod drugo, v drugem pa besedilo ki je v listu -->
+			<table>
+			<tr>
+				<th><img src="slike/slika_zaslon.png" width="175" height="125"><img src="slike/zaslon.png" width="175" height="125"></th>
+				<th><ul>
+					<li>katodni – CRT (cathode ray tube): Slika je sestavljena iz točk imenovanih piksel. Število pikslov, s katerimi prikazovalnik prikaže sliko na zaslonu, opredeljuje njegovo slikovno ločljivost – resolucija monitorja (npr. 1024x768). velikost je izražena z dolžino diagonale zaslona. (17, 19, 21 palcev in več). Slike na zaslonu se osvežujejo – spreminjajo z določeno hitrostjo – hitrost osveževanja (vsaj 85Hz). Pomembno je tudi število barv, ki se prikažejo.</li>
+					<li>LCD (liquid crystal display): So prikazovalniki ravnih in ozkih zaslonov. LCD tehnologija izkorišča optične lastnosti tekočih kristalov, ki se v prisotnosti električnega polja spremenijo. Glavne lastnosti: majhna teža, majhna poraba el. Energije, večja kompaktnost – tanjši, ni elektromagnetnega sevanja, uporaba na prenosnih računalnikih. Uporaba pri prenosnih in žepnih računalnikih. Poleg ločljivosti in velikosti je kakovost prikazovalnika LCD odvisna še od: kotne vidljivosti, kontrastnosti slike, odzivni čas.</li>
+					<li>Plazemski: Plazemske zaslone uporabljamo za prikaz velikih slik, diagonala je tudi prek enega metra, so zelo dragi in imajo kratko življenjsko dobo.</li>
+				</ul>
+				<!-- konec lista -->
+				</th>
+			</table>
+			<!-- konec tabele in besedilo spodaj-->
+			<p>Velikost zaslona je podana z velikostjo njegove diagonale. 15 palčni (1 palec = 2,54 cm)</p> 
+			<hr> 
+			<!-- črta za boljšo ločljivost-->
+		</section>
+		<!-- konec drugega dela, začetek tretjega -->
+		<section>
+			<!-- naslov ki je sidro, povezan na zgornje kazalo in ima poseben stil naslov, ter pod njim besedilo -->
+			<h3 class="naslov" id="poglavje2"> TISKALNIK </h3>
+			<p>Tiskalnik je naprava, ki nam omogoča izpis računalniških podatkov na papir ali drugo podlago (folija). V osnovi jih delimo na:  mehanske (npr. matrične ali iglične, ki tiskajo v več izhodih) in na nemehanske (npr. laserski in brizgalniki). Vrste tiskalnikov ločimo glede na tehnologijo izpisa: </p> 
+			<!-- začetek tabele ki ima dva stolpca in eno vrstico, v prvem stolpcu sta dve sliki ena pod drugo in centrirane na sredini stolpca, v drugem stolpcu pa besedilo v listu ki je poravnano levo -->
+			<table>
+			<tr>
+				<th><img src="slike/tiskalnik.png" width="175" height="125"><img src="slike/printer.png" width="175" height="125"></th>
+				<th><ul>
+					<li>Matrični: tiska podobno kot pisalni stroj. Črke proizvede z udarci več kovinskih iglic, ki so v pisalni glavi. Udarja znake ali pike preko traku. Število iglic v pisalni glavi določa kakovost izpisa (9 ali 24 iglic, tudi 48). Prednost pred brizgalnim in laserskim tiskalnikom je: pisanje na neskončen papir, izpis v več kopijah, preprost.</li>
+					<li>Laserski: Deluje podobno kot fotokopirni stroj, laserski žarek piše po valju s fotoprevodno površino posebna barva iz tonerja (prah) se prime valja prav tam, kjer je bil osvetljen, ko pride valj v stik s papirjem, se slika prenese na papir in s toploto utrdi (tiskarsko barvo vročina žarnice, ki je v tiskalniku, zapeče na papir), kvaliteten zapis, natisne celotno stran hkrati.</li>
+					<li>Brizgalni: tehnologijo brizgalnega tiskanja sta leta 1979 neodvisno razvili podjetji Canon in Hewlett-Packard. Prvi črno beli tiskalnik je razvil leta 1984 Hewlett-Packardov ThinkJet. Že leta 1985 se je na trgu pojavil prvi barvni tiskalnik – Hpjev PaintJet. Ideja brizgalnega tiskanja je še danes enaka. Delovanje: drobne kapljice črnila brizga na papir in tako ustvarja sliko, kakovostna slika, počasni, nezmožnost tiskanja v več kopijah hkrati.</li>
+					<li>Risalniki: slika se izriše na papir s pomočjo vodilnih pisal, namizni, z valjem za večje formate, izrezovanje šablon (krojenje), graviranje.</li>
+				</ul>
+				<!-- konec lista -->
+				</th>
+			</table>
+			<!-- konec tabele -->
+		</section>
+		<!-- konec tretjega dela, začetek noge-->
+		<footer>
+		<!-- tabela, ki ima licenco spletne strani v prvem stolpcu poravnano levo in v drugem stolpcu datum spletne strani poravnano desno -->
+			<table>
+			<tr>
+				<th><p style="margin: 30px;"> spletna_stran © 2022 by lepaglavca is licensed under CC BY 4.0 </p></th>
+				<th style="text-align:right">9. 6. 2022<th>
+			</table>
+			<!-- konec tabele -->
+		</footer>
+	<!-- konec noge -->
+	</body>
+<!-- konec telesa-->
+</html>
+<!-- konec htmlja -->

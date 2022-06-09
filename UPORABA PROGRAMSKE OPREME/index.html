@@ -1,0 +1,101 @@
+<!-- ustvarimo html -->
+<!DOCTYPE html>
+<html>
+	<!-- začetek glave -->
+	<head>
+	<!-- linki do googlovih pisav ki jih uporabljam -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">
+		<!-- naslov zavihka-->
+		<title>Vhodno-izhodne naprave</title>
+		<!-- povezava do stila oz. tako vpeljemo stil -->
+		<link rel="stylesheet" type="text/css" href= "stil.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Kratek opis vsebine">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="John Doe">
+		<!-- dodatn style, ki prevlada nad tistem ki je v stil.css -->
+		<style>
+			h1 {
+				text-align: center-left;
+			}
+		</style>
+	</head>
+	<!-- konec glave, začetek telesa (body) -->
+	<body>
+		<!-- začetek glave spletne strani-->
+		<header>
+			<!-- ustvarila sem tabelo z eno vrstico in dvema stolpcema, v enemu stolpcu je logo v drugemu pa naslov -->
+			<table>
+			<tr>
+				<th><img class="logo" src="slike/koncnilogo.png" width="100" height="100"></th>
+				<!-- naslov ime stil meni -->
+				<th class="meni"><h1> VHODNO-IZHODNE NAPRAVE </h1></th>
+			</table>
+			<!-- konec glave -->
+		</header>
+		<!-- uporabila sem nav (navigation-navigacijo) iz html5 za lepše in preprostejše oblikovanje mojega menija-->
+		<nav>
+			<!-- začetek tabele menija, kjer je vsaka beseda link na podstran, <th> ima stil poseben meni. Tabela ima eno vrstico in tri stolpce-->
+			<table>
+			<tr>
+				<th class="meni"><a href="vhodnenaprave.html"><h4>VHODNE NAPRAVE</h4></a></th>
+				<th class="meni"><a href="izhodnenaprave.html"><h4>IZHODNE NAPRAVE</h4></a></th>
+				<th class="meni"><a href="viri.html"><h4>VIRI IN LICENCE</h4></a></th>
+			</table>
+		</nav>
+		<!-- konec nav in pri section oz. "del" -->
+		<section>
+		<!-- tabela z eno vrstico in dvema stolpcema za lepšo poravnavo da je besedilo centrirano na levi strani slike na sredini-->
+			<table>
+			<tr>
+				<!-- slika ki ima dodaten stil, ter besedilo -->
+				<th><img style="margin-right: 30px; float: left" src="slike/slusalke_tipkovnica_miska.jpg" width="200" height="125"></th>
+				<th><p>Vhodno-izhodne naprave nam omogočajo komunikacijo med računalnikom in njegovim okoljem (človek, druge naprave). Njihova naloga je, da računalniško kodo preoblikujejo v človeku razumljiv podatek in človeku razumljiv podatek v računalniško kodo oz. računalniku razumljiv podatek.</p></th>
+			</table>
+			<!-- konec tabele -->
+			<hr>
+			<!-- naredili sem črto pod tabelo za lepšo ločljivost med predeli-->
+		</section>
+		<!-- konec prvega dela, začetek drugega-->
+		<section>
+			<!-- naslov in besedilo, pod tem pa tabela ki ima eno vrstico in tri stolpce v vsaki je slika ki je centrirana na sredini in pod sliko z <figcaption> imam opis slike -->
+			<table>
+			<tr>
+				<h2>VHODNE NAPRAVE</h2>
+				<p>Vhodne enote so naprave, ki nam omogočajo vnos podatkov v računalnik in skrbijo, da so vhodni podatki preoblikovani v obliko, ki jo razume računalnik (digitalen zapis). Med vhodne naprave štejemo na primer:</p>
+				<th><img style="float: center;" src="slike/miskaa.png" width="150" height="100"><figcaption>MIŠKA</figcaption></th>
+				<th><img style="float: center;" src="slike/tipkovnica.png" width="150" height="100"><figcaption>TIPKOVNICA</figcaption></th>
+				<th><img style="float: center;" src="slike/microphone1.png" width="125" height="125"><figcaption>MIKROFON</figcaption></th>
+			</table>
+			<hr>
+			<!-- črta -->
+		</section>
+		<!-- konec drugega dela, začetek tretjega-->
+		<section>
+			<!-- naslov in besedilo, po tem pa tabela ki ima eno vrstico in dva stolpca, v vsakmu stolpcu je slika, pod njo pa opis slike z <figcaption> -->
+			<table>
+			<tr>
+				<h2>IZHODNE NAPRAVE</h2>
+				<p>Izhodne enote so naprave, ki omogočajo prikaz podatkov iz računalnika. Izhodne naprave skrbijo, da so izhodni podatki podani v obliki, ki jo razumemo mi (zvok, slika ali izpis na zaslonu, izpis na papirju,..). Med izhodne naprave štejemo na primer:</p>
+				<th><img style="float: center;" src="slike/zaslon2.png" width="150" height="100"><figcaption>ZASLON</figcaption></th>
+				<th><img style="float: center;" src="slike/printer.png" width="150" height="100"><figcaption>TISKALNIK</figcaption></th>
+			</table>
+			<!-- konec tabele -->
+		</section>
+		<!-- konec tretjega dela, začetek noge strani-->
+		<footer>
+			<!-- tabela ki ima licenco spletne strani centrirano levo in datum nastanka spletne strani na levi-->
+			<table>
+			<tr>
+				<th><p style="margin: 30px;"> spletna_stran © 2022 by lepaglavca is licensed under CC BY 4.0 </p></th>
+				<th style="text-align:right">9. 6. 2022<th>
+			</table>
+			<!-- konec tabele -->
+		</footer>
+		<!-- konec noge strani -->
+	</body>
+	<!-- konec telesa -->
+</html>
+<!-- konec htmlja -->

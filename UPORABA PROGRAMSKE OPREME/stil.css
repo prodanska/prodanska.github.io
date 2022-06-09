@@ -1,0 +1,134 @@
+/* stil za html dokumente */
+
+/* stil za besedilo: poravnano levo, google pisava in dodatna pisava če google pisava ne dela, črna barva in pa margin*/
+p {
+	text-align: left;
+	font-family: 'League Spartan', sans-serif;
+	color: black;
+	margin: 30px;
+} 
+
+/* stil za glavo spletne strani: barva ozadja*/
+header {
+	background-color: #8B8ABF;
+}
+
+/* stil za nogo spletne strani: barva ozadja, in pa prostor zgoraj*/
+footer {
+	background-color: #8B8ABF;
+	margin-top: 30px;
+}
+
+/* stil za sliko: prostor okoli*/
+img {
+	margin: 20px;
+}
+
+/* stil za a (značka pri povezavah): velikost pisave, barva, poravnano na sredino, in brez dekoracije pisave*/
+a {
+	font-size: 17px;
+	color: #272B73;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* stil za naslov 1: google pisava in zamenjava če google pisava ne dela, velikost naslova, barva in poravnano na sredino*/
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 52px;
+	color: #020873;
+	text-align: center;
+}
+
+/* stil za naslov 2: google pisava in zamenjava, barva pisave in poravnano na sredino*/
+h2 {
+	font-family: 'Yellowtail', cursive;
+	color: #272B73;
+	text-align: center;
+}
+
+/* stil za telo: barva ozadja*/
+body {
+	background: #F2F2F2;
+}
+
+/* stil za naslov 3: google pisava in zamenjava, barva pisave in poravnano na sredino*/
+h3 {
+	font-family: 'Yellowtail', cursive;
+	color: #32378C;
+	text-align: center;
+}
+
+/* stil za naslov 4: google pisava in zamenjava, barva, velikost in poravnano na sredino*/
+h4 {
+	font-family: 'League Spartan', sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+/* stil za navigacijo: meja okoli in barva, ter padding */
+nav {
+	border: 2px solid #020873;
+	padding: 0px;
+}
+
+/* stil za opis slike: google pisava in zamenjava, barva in poravnava na sredo */
+figcaption {
+	font-family: 'League Spartan', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+/* razred za logo: poravnava levo */
+.logo {
+	float: left;
+}
+
+/* stil za tabelo: širina tabele in poravnava besedila znotraj na sredino */
+table {
+	width: 100%;
+	text-align: center;
+}
+
+/* razred za meni: poravnava besedila, in pa prostor okoli */
+.meni {
+	text-align: center;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+/* stil za stolpce in vrstice v tabeli: poravnava besedila na sredino */
+th, td {
+	text-align: center;
+}
+
+/* razred za naprave (uporabljala pri kazalu): meja okoli in barva, in pa prazno mesto okoli */
+.naprave {
+	border: 1px solid #020873;
+	margin-right: 900px;
+	margin-top: 10px;
+}
+
+/* stil za naslov 3 in 5 poravnava levo in prostor levo*/
+h3, h5 {
+	text-align: left;
+	margin-left: 20px
+}
+
+/* stil za list: poravnava besedila levo */
+ul {
+	text-align: left;
+}
+
+/* razred za naslov (uporabljala pri naslovih): obroba/meja okoli, barva ozadja, prosto mesto okoli in pa zaobrobljena ta "škatla" */
+.naslov {
+	border: 1px solid #8B8ABF;
+	background-color: #8B8ABF;
+	padding: 10px;
+	margin: 20px;
+	margin-right: 1000px;
+	border-radius: 15px;
+}
+
+/* konec cssja*/
